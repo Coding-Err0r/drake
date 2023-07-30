@@ -44,7 +44,7 @@ const Settings = (props) => {
                 <a key={color} href="#" className={activeColor === color ? 'clr-active' : ''} onClick={() => handleColorClick(color)}></a>
               ))}
             </div>
-            <p>THREE DIMENSIONAL SHAPES</p>
+            {/* <p>THREE DIMENSIONAL SHAPES</p>
             <ul className="themes">
               <li><a href="#" onClick={() => {document.querySelector('body').style.backgroundColor='black';props.clickEvent('./assets/images/video1.mp4');setIsSettingsOpen(false);}}>Earth Lines Sphere</a></li>
               <li><a href="#" onClick={() => {document.querySelector('body').style.backgroundColor='#1f1f1f';props.clickEvent('./assets/images/video2.mp4');setIsSettingsOpen(false);}}>3D Abstract Ball</a></li>
@@ -52,7 +52,7 @@ const Settings = (props) => {
               <li><a href="#" onClick={() => {document.querySelector('body').style.backgroundColor='#1f1f1f';props.clickEvent('./assets/images/video4.mp4');setIsSettingsOpen(false);}}>Liquids Wavy</a></li>
               <li><a href="#" onClick={() => {document.querySelector('body').style.backgroundColor='black';props.clickEvent('./assets/images/video5.mp4');setIsSettingsOpen(false);}}>Simple Strings</a></li>
               <li><a href="#" onClick={() => {document.querySelector('body').style.backgroundColor='black';props.clickEvent('');setIsSettingsOpen(false);}}>Solid Color</a></li>
-            </ul>
+            </ul> */}
           </div>
         </div>
       </div>
