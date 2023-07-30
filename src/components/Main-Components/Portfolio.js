@@ -65,9 +65,7 @@ export default function Portfolio() {
                     </ul>
                   </div>
                   <h2>
-                    <a href="https://www.Bureau - Architecture Studio Website.com">
-                      Bureau - Architecture Studio Website
-                    </a>
+                    <a href={item.link}>{item.title}</a>
                   </h2>
                 </div>
               </div>
