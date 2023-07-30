@@ -3,6 +3,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 const SocialMedia = () => {
+  const animation = ["fade-up", "fade-down", "fade-left", "fade-right"];
   useEffect(() => {
     AOS.init({ duration: 1000 });
   }, []);
@@ -19,22 +20,38 @@ const SocialMedia = () => {
               <i className="las la-hashtag"></i> Social Media
             </h4>
             <ul className="social-profile d-flex align-items-center flex-wrap justify-content-left">
-              <li>
+              <li
+                data-aos={
+                  animation[Math.floor(Math.random() * animation.length)]
+                }
+              >
                 <a href="https://twitter.com/">
                   <i className="lab la-twitter"></i>
                 </a>
               </li>
-              <li>
+              <li
+                data-aos={
+                  animation[Math.floor(Math.random() * animation.length)]
+                }
+              >
                 <a href="https://dribble.com/">
                   <i className="lab la-dribbble"></i>
                 </a>
               </li>
-              <li>
+              <li
+                data-aos={
+                  animation[Math.floor(Math.random() * animation.length)]
+                }
+              >
                 <a href="https://instagram.com/">
                   <i className="lab la-instagram"></i>
                 </a>
               </li>
-              <li>
+              <li
+                data-aos={
+                  animation[Math.floor(Math.random() * animation.length)]
+                }
+              >
                 <a href="https://github.com/">
                   <i className="lab la-github"></i>
                 </a>
