@@ -2127,6 +2127,7 @@ body .body-overlay {
 }
 .flex-item {
   text-align: center;
+  font-size: 14px;
 }
 
 .svgIcon {
