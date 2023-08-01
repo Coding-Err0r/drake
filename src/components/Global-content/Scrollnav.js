@@ -43,11 +43,11 @@ export default function Scrollnav() {
                 <span>Testimonial</span> <i className="lar la-comment"></i>
             </a>
         </li> */}
-      <li>
+      {/* <li>
         <a className="scroll-to" href="#contact">
           <span>Contact</span> <i className="las la-envelope"></i>
         </a>
-      </li>
+      </li> */}
     </ul>
   );
 }
