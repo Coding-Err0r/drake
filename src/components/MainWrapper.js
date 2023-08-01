@@ -30,7 +30,7 @@ export default function Main() {
           {/* <Testimonials/>
                 <Clientlogos/>
                 <Pricing/> */}
-          <Contact />
+          {/* <Contact /> */}
         </div>
       </div>
     </main>

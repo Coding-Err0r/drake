@@ -716,7 +716,7 @@ main.drake-main {
   text-align: center;
 }
 .left-sidebar .sidebar-header {
-  margin-bottom: 65px;
+  margin-bottom: 50px;
 }
 .left-sidebar .sidebar-header .designation {
   max-width: 110px;
@@ -2117,9 +2117,9 @@ body .body-overlay {
   display: flex;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 80px;
-  padding: 0 10px;
+  padding: 0 8px;
   color: white;
-  margin: 5px 0;
+  margin: 20px 0;
 }
 .space-between {
   justify-content: space-between;
@@ -2127,9 +2127,20 @@ body .body-overlay {
 }
 .flex-item {
   text-align: center;
-  font-size: 14px;
+  font-size: 16px;
+  padding: 4px 0;
 }
 
 .svgIcon {
   color: var(--primary_color);
+  font-size: 20px;
+}
+
+.name {
+  font-size: 24px;
+  color: var(--primary_color) !important;
+}
+
+.primaryColor {
+  color: var(--primary_color) !important;
 }

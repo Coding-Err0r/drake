@@ -21,7 +21,7 @@
 @media (max-width: 1555px) {
   .left-sidebar {
     max-width: 350px;
-    padding: 30px;
+    padding: 20px;
   }
   .left-sidebar > img.me {
     width: 100%;
