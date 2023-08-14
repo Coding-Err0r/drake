@@ -1,8 +1,8 @@
 const data = {
-  name: "MD RHINEUL ISLAM",
+  name: "Manon Rahman",
   profilePicture:
     "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Pierre-Person.jpg/800px-Pierre-Person.jpg",
-  designation: "React Developer",
+  designation: "Product Manager",
   email: "rhine.islam@cookietechltd.com",
   countryOfResidence: "Bangladesh",
   cityOfResidence: "Rajshahi",
